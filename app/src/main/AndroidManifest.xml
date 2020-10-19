@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acesso">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ACESSO">
+        <activity android:name=".TelaAvaliar"></activity>
+        <activity android:name=".TelaAddInfo" />
+        <activity android:name=".TelaTodas" />
+        <activity android:name=".TelaSaude" />
+        <activity android:name=".TelaHospedaria" />
+        <activity android:name=".TelaLazer" />
+        <activity android:name=".TelaLojas" />
+        <activity android:name=".TelaEducacao" />
+        <activity android:name=".TelaGastronomia" />
+        <activity android:name=".TelaSobre" />
+        <activity android:name=".TelaAvaliacao" />
+        <activity android:name=".TelaPerfil" />
+        <activity android:name=".TelaPrincipal" />
+        <activity android:name=".TelaEntrar" />
+        <activity android:name=".TelaCadastro" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
